@@ -1,0 +1,12 @@
+{
+  "name": "free-llm-api-key-fecther",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "clipboardy": "^5.3.2",
+    "electron": "^33.4.11"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}

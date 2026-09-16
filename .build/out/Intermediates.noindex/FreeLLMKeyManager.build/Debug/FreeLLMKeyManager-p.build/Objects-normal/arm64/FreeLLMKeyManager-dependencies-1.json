@@ -1,0 +1,638 @@
+[
+  {
+    "isFramework" : true,
+    "moduleName" : "Accessibility",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-YET2FM1SVZ2X.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "AppKit",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-2832L6976CJ1O.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ColorSync",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-1TVDKAH0GO2FC.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Combine",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Combine-1T6WD1J0FO0L0.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreData",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-3QNSKED4UP0N0.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-2PM77UYMA6L39.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreGraphics",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-2VYG8W2VP13WQ.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreImage",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-L07MFTAPNBQJ.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreText",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-2WZSP0J34HJ4V.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreTransferable",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-1XFE3GTG7XIWJ.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreVideo",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-2SL5K8P9TGZJ1.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Darwin",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-NBEEPEVDDYIL.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "DataDetection",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-PZ7UJDTWRMRQ.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "DeveloperToolsSupport",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-27BNDKUXWNKQP.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Dispatch",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-8AW7NMLSP01Q.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Foundation",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-GKU5112F9JZF.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "IOKit",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-1GPT677CIBMHO.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ImageIO",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-9COOQOM97QGG.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Metal",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-11IVG7474AYR2.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "OSLog",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-2O9PC8H21B22Z.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-KAKDPY0WTFVI.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Observation",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Observation-FEKPZ25GRUWV.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "QuartzCore",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-3W92MY07QZ6M.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Spatial",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-398S2OPEP07AS.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Swift",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-6JDBFO8Z6ZOH.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "SwiftOnoneSupport",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftOnoneSupport-18PC9FBPAFRW7.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "SwiftUICore",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-81D9IMIX09JN.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Symbols",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-2OT9Q30M5WFW6.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "System",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/System-2ALYJXS6MHOYX.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "UniformTypeIdentifiers",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-1S9VTKXYCPDLL.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "XPC",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-31TKB4ZYHQRKS.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-A0D73U5GGZYR.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Concurrency",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-2RP79Z3R5FK23.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-29A19490F1FX9.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-1FP7HP8OJL91L.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-2RRWKGXNTTTN6.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_StringProcessing",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-16GOEJVQNIYUS.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "os",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/os-22AH91UBXO54Q.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "simd",
+    "modulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/simd-18PIV9VDGPDA6.swiftmodule"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Accessibility.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-BSNUFQN5LVP8G1P6AFVD06ITR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Accessibility"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AppKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-DBQGLBMZLKTA6M65PI8BS6WCW.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "AppKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ApplicationServices.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ApplicationServices-18LGK30W29EJ0E3XGL1OVSRM8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ApplicationServices"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CFNetwork.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CFNetwork-7SH907ZHA9RYZ5FVZV43B7788.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CFNetwork"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/cups.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CUPS-7YEIVVZRF8I94T9GO4RZJ0U07.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CUPS"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Cocoa.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Cocoa-EOYSS39YSO49CUSQ8J8J5HUNC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Cocoa"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ColorSync.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-A9Y482JE5SW88GIHAAJ2DLS90.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ColorSync"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreData.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-5J29RMNVR1D4SDVQ58072LO5D.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreData"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreFoundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-8PHLV0ANPJNP3L9Y0HCQT48WG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreGraphics.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-5W1N2NOKLF513HCEK74M5N51X.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreGraphics"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreImage.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-LXZDV4Z9EIHXJ0IKLQH7LOJR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreImage"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreServices.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreServices-EC6V5T1JK4TNPATKQ2GURQ73A.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreServices"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreText.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-9B373RA7MZPKDKL1Q03E8NO24.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreText"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreTransferable.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-EAGSEAN5823LM7LS7LF0BRQ51.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreTransferable"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreVideo.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-XN3M5W1ZW3LKFEUUI698WEV.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreVideo"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/Darwin.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-ETKMVTU8IW8XN0LAHTKW43IKC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Darwin"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DataDetection.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-D0WOU4GPL90FNMZOU81GFT77D.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DataDetection"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DeveloperToolsSupport.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-2AGLY342BN65UEMEA4PACMPE1.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DeveloperToolsSupport"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DiskArbitration.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/DiskArbitration-1QY73GTBYPK04BYNP5DUNFUWN.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DiskArbitration"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/dispatch.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-61Z93EBQKS3YVV7UIGJKYP3F9.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Dispatch"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-ALK9R56O80NCNP8WM9RAI9WJW.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Foundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/IOKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-BEQV1LTS60SD2RAZ3Y99O0V6S.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "IOKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/IOSurface.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/IOSurface-4IS3EWTLAVPVQF2AGDGZVEXMU.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "IOSurface"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ImageIO.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-3DT50XGA4TG2SXFH88XBOUJTG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ImageIO"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinBasic.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/MachO-D7TWNXODPPI44T9VMV6M7XWXR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "MachO"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Metal.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-65C9ARG8ERA3VB3VYO868B0NM.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Metal"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/OSLog.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-JN61EDK4U0CDTR7SBLD2YNI4.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "OSLog"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/ObjectiveC.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-ZUQD757LI1FY4KCIZ60T3BZR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/OpenGL.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/OpenGL-9U0OLCGBDIKMYK8AIKUC7JFDF.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "OpenGL"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/QuartzCore.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-5IVW8BFRM81MXH7LZXWA1HUCL.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "QuartzCore"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Security.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Security-1PUEOPD87S4NX4ZCJUDEL1XJG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Security"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/Spatial\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-4IESE40A3NKK6WO6ENHXQV1F2.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Spatial"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-DDCMC6YGT2092Q4IS84QB6ZHR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/SwiftUICore.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-5IBIP5NUC0XVJJ2AU1TX2W4H7.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftUICore"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Symbols.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-9XN5CF26QPVM05NZPQ0ETIP7C.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Symbols"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/UniformTypeIdentifiers.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-ELGZSOD9UIWU32AGEI4Q3EYDZ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "UniformTypeIdentifiers"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/xpc.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-A2PG0M607H9C912CZIJI1J6DC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "XPC"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-82AM9ORDLMQKHW4LS8SX9942T.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_AvailabilityInternal"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-BFDYHKXVOJQXKYE2Y84J0GO5L.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-CQ1T350EE5DEIFXLVJ3RJIQ07.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_intrinsics"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-A6IL6PKVI820LDNZUPVK14SOF.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_inttypes"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_limits-4BBTY15M1LPKQFTTPYCIG4IF8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_limits"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-DEMZKLDD834B9UMA6SDKD0ZH2.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdarg"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdatomic-EJNDAGNV65RH9HN9YKHEYVYH5.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdatomic"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-ESPK1BL5ATFPCV4S1P8OZHT68.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdbool"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stddef-7864QZW3AFIK4J7L2AABOS15C.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stddef"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdint-5778Y0QYOC3I500T7AJ8PZUMV.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdint"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_tgmath-31TFS9NP2JHUVSH68WW65GK5O.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_tgmath"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-YW5XKPBNBNG5NAZSDSKQY0Y8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-DUOQAVZV5FXI7TD8AGPVF38EF.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation3.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-EPJ6E8EO5Q2B0SKMUJ2FXM6TK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-8JL9FZDBOYLIY9ZDGYZ9BBE0W.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_SwiftConcurrencyShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/launch.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/launch-4UJZCI3ZAY7T5QRALQYKRHVYZ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "launch"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/libDER\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/libDER-CMJD72AXTSQR2PMHREDDO122W.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libDER"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/libkern.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/libkern-85N91IX1SLHN0B0EALAQJZJYE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libkern"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/os-BKPLTE6WNXJZ2BKVR66WYP22V.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/os_object-B4QHZAX4R067AOPFCUHO663T0.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_object"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/os_workgroup-BWYVMJMY77FKRVZ3FI4REWA43.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_workgroup"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ptrauth-5NLGU3HQF0QVG3XBARK8JIUVN.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrauth"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/ptrcheck-7OTQL8G8O0SLVWBJG9OFSB9A4.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrcheck"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/simd\/module.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/simd-8P968A7UVWUKSZW23K4AVV5R.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "simd"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/c_standard_library.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/string_h-66WTG0XJCY18WFU5HOLXVYIKC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "string_h"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/kapilthakare\/Projects\/free-llm-api-key-fecther\/.build\/out\/SDKExplicitPrecompiledModules\/sys_types-4EPCRSP8LTTK7I83DFHVF60F.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "sys_types"
+  }
+]
