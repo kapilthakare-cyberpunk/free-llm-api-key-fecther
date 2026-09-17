@@ -74,4 +74,18 @@
         android:text="Export Backup"
         android:layout_marginTop="8dp"/>
 
+    <Button
+        android:id="@+id/telegramButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Backup to Telegram"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/driveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backup to Google Drive"
+        android:layout_marginTop="8dp"/>
+
 </LinearLayout>
