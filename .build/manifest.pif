@@ -5,11 +5,11 @@
       "name" : "FreeLLMKeyManager",
       "path" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther",
       "projects" : [
-        "eac06d7df9ec626d9a16fee25ba0cbc8f6692d5de9414e3d9d668606efd71a25",
-        "dfed6fc14a4f516dbdddc40e246b1ef36309386dcfdad719b3fced6d8d1f3096"
+        "aef12253d57710dc2b9d1cb1f258148a60171d8860a95f3f4fb11932a61b614b",
+        "8d4f259d916ed626e771c7d939c53fc6dfc6ee1f1108d0d1cb14b6d47c9fc870"
       ]
     },
-    "signature" : "38975415f4cbeb439d1d145f38bfcd34ae64f39c7d75eb38d8566accecb71ad7",
+    "signature" : "d3b92ec1f660eb8e1d14eb06792948526c26a43265000dbb61cff059eaf06933",
     "type" : "workspace"
   },
   {
@@ -201,15 +201,15 @@
               {
                 "fileType" : "sourcecode.swift",
                 "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_2::REF_0",
-                "name" : "FreeLLMKeyManagerTests.swift",
-                "path" : "FreeLLMKeyManagerTests.swift",
+                "name" : "main.swift",
+                "path" : "main.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
             "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_2",
-            "name" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Tests/FreeLLMKeyManagerTests",
-            "path" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Tests/FreeLLMKeyManagerTests",
+            "name" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Sources/FreeLLMKeyManager",
+            "path" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Sources/FreeLLMKeyManager",
             "sourceTree" : "<absolute>",
             "type" : "group"
           },
@@ -229,23 +229,6 @@
             "path" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Sources/FreeLLMKeyManager",
             "sourceTree" : "<absolute>",
             "type" : "group"
-          },
-          {
-            "children" : [
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_4::REF_0",
-                "name" : "main.swift",
-                "path" : "main.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              }
-            ],
-            "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_4",
-            "name" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Sources/FreeLLMKeyManager",
-            "path" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Sources/FreeLLMKeyManager",
-            "sourceTree" : "<absolute>",
-            "type" : "group"
           }
         ],
         "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP",
@@ -260,365 +243,13 @@
       "projectIsPackage" : "true",
       "projectName" : "FreeLLMKeyManager",
       "targets" : [
-        "4ed257b19d108a865f517f4cfd93ffa5ad2ce92b16d7ad94a25565ea868a5584",
-        "7f5a6ad4dee3c5d0ee61ebb37a2138bc136e0a81497a3b871ba722dbd68fd91b",
-        "eba027efbd6957bc08373928247256ba54e7cc15dd4b37128f096f00ae6fd681",
-        "f7bc38eee1bb358dca99019d3c4da1d5afed91880e29310086608304cbbfafd4",
-        "6f50ea88f3608cb6ffefcf984c223ba43048d209c45e06a9b572f8028e7804b7"
+        "425fd6f92aae66caca0eb89f8fb2b3fa7e5361404ab7e76abc638762c15e975b",
+        "4d06027c95be05971e8eba8396b4d7e9b6601dc13733b3f9967100dfdad012de",
+        "cc0638a28c0bb249977c647b0025e4495ed159082bea0d9f1b26414120f28334"
       ]
     },
-    "signature" : "eac06d7df9ec626d9a16fee25ba0cbc8f6692d5de9414e3d9d668606efd71a25",
+    "signature" : "aef12253d57710dc2b9d1cb1f258148a60171d8860a95f3f4fb11932a61b614b",
     "type" : "project"
-  },
-  {
-    "contents" : {
-      "approvedByUser" : "true",
-      "buildConfigurations" : [
-        {
-          "buildSettings" : {
-            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
-            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
-            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
-            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
-              "$(inherited)",
-              "test"
-            ],
-            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
-            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
-            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
-            "GENERATE_INFOPLIST_FILE" : "YES",
-            "GENERATE_RESOURCE_ACCESSORS" : "YES",
-            "INDEX_ENABLE_DATA_STORE" : "YES",
-            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
-            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
-            "LD_RUNPATH_SEARCH_PATHS" : [
-              "$(RPATH_ORIGIN)/Frameworks",
-              "$(RPATH_ORIGIN)/../Frameworks",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
-            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "free-llm-api-key-fecther.FreeLLMKeyManagerTests",
-            "PRODUCT_MODULE_NAME" : "FreeLLMKeyManagerTests",
-            "PRODUCT_NAME" : "$(TARGET_NAME)",
-            "SDKROOT" : "auto",
-            "SDK_VARIANT" : "auto",
-            "SKIP_INSTALL" : "NO",
-            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
-              "$(inherited)"
-            ],
-            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
-            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
-            "SWIFT_LIBRARIES_ONLY" : "YES",
-            "SWIFT_PACKAGE_NAME" : "free_llm_api_key_fecther",
-            "SWIFT_VERSION" : "5",
-            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/FreeLLMKeyManagerTests.symbolgraphs",
-            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/FreeLLMKeyManagerTests.symbolgraphs",
-            "TARGET_NAME" : "FreeLLMKeyManagerTests",
-            "TARGET_TEMP_DIR_SUFFIX" : "-p",
-            "TVOS_DEPLOYMENT_TARGET" : "15.0",
-            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
-            "XROS_DEPLOYMENT_TARGET" : "1.0"
-          },
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests::BUILDCONFIG_0",
-          "impartedBuildProperties" : {
-            "buildSettings" : {
-
-            }
-          },
-          "name" : "Debug"
-        },
-        {
-          "buildSettings" : {
-            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
-            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
-            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
-            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
-              "$(inherited)",
-              "test"
-            ],
-            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
-            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
-            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
-            "GENERATE_INFOPLIST_FILE" : "YES",
-            "GENERATE_RESOURCE_ACCESSORS" : "YES",
-            "INDEX_ENABLE_DATA_STORE" : "YES",
-            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
-            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
-            "LD_RUNPATH_SEARCH_PATHS" : [
-              "$(RPATH_ORIGIN)/Frameworks",
-              "$(RPATH_ORIGIN)/../Frameworks",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
-              "$(APPLE_TEST_BUNDLE_RPATH)",
-              "$(inherited)"
-            ],
-            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
-            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "free-llm-api-key-fecther.FreeLLMKeyManagerTests",
-            "PRODUCT_MODULE_NAME" : "FreeLLMKeyManagerTests",
-            "PRODUCT_NAME" : "$(TARGET_NAME)",
-            "SDKROOT" : "auto",
-            "SDK_VARIANT" : "auto",
-            "SKIP_INSTALL" : "NO",
-            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
-              "$(inherited)"
-            ],
-            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
-            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
-            "SWIFT_LIBRARIES_ONLY" : "YES",
-            "SWIFT_PACKAGE_NAME" : "free_llm_api_key_fecther",
-            "SWIFT_VERSION" : "5",
-            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/FreeLLMKeyManagerTests.symbolgraphs",
-            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/FreeLLMKeyManagerTests.symbolgraphs",
-            "TARGET_NAME" : "FreeLLMKeyManagerTests",
-            "TARGET_TEMP_DIR_SUFFIX" : "-p",
-            "TVOS_DEPLOYMENT_TARGET" : "15.0",
-            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
-            "XROS_DEPLOYMENT_TARGET" : "1.0"
-          },
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests::BUILDCONFIG_1",
-          "impartedBuildProperties" : {
-            "buildSettings" : {
-
-            }
-          },
-          "name" : "Release"
-        }
-      ],
-      "buildPhases" : [
-        {
-          "buildFiles" : [
-            {
-              "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_2::REF_0",
-              "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests::BUILDPHASE_0::0",
-              "platformFilters" : [
-
-              ],
-              "removeHeadersOnCopy" : "false"
-            }
-          ],
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests::BUILDPHASE_0",
-          "type" : "com.apple.buildphase.sources"
-        },
-        {
-          "buildFiles" : [
-            {
-              "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests::BUILDPHASE_1::0",
-              "platformFilters" : [
-
-              ],
-              "targetReference" : "PACKAGE-TARGET:FreeLLMKeyManager-24B64B09F5958D5C-testable"
-            }
-          ],
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests::BUILDPHASE_1",
-          "type" : "com.apple.buildphase.frameworks"
-        }
-      ],
-      "buildRules" : [
-
-      ],
-      "customTasks" : [
-
-      ],
-      "dependencies" : [
-        {
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManager.FreeLLMKeyManager",
-          "platformFilters" : [
-
-          ]
-        },
-        {
-          "guid" : "PACKAGE-TARGET:FreeLLMKeyManager-24B64B09F5958D5C-testable",
-          "platformFilters" : [
-
-          ]
-        }
-      ],
-      "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests",
-      "name" : "FreeLLMKeyManagerTests-product",
-      "productReference" : {
-        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests",
-        "name" : "$(EXECUTABLE_NAME)",
-        "type" : "file"
-      },
-      "productTypeIdentifier" : "com.apple.product-type.bundle.unit-test",
-      "type" : "standard"
-    },
-    "signature" : "4ed257b19d108a865f517f4cfd93ffa5ad2ce92b16d7ad94a25565ea868a5584",
-    "type" : "target"
-  },
-  {
-    "contents" : {
-      "approvedByUser" : "true",
-      "buildConfigurations" : [
-        {
-          "buildSettings" : {
-            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
-            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
-            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
-            "LD_RUNPATH_SEARCH_PATHS" : [
-              "$(inherited)",
-              "$(RPATH_ORIGIN)"
-            ],
-            "LINKER_DRIVER" : "swiftc",
-            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
-            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "free-llm-api-key-fecther.FreeLLMKeyManagerTests-test-runner",
-            "PRODUCT_MODULE_NAME" : "FreeLLMKeyManagerTests_test_runner",
-            "PRODUCT_NAME" : "$(TARGET_NAME)",
-            "SDKROOT" : "auto",
-            "SDK_VARIANT" : "auto",
-            "SKIP_INSTALL" : "NO",
-            "SWIFT_VERSION" : "5.0",
-            "TARGET_NAME" : "FreeLLMKeyManagerTests-test-runner",
-            "TVOS_DEPLOYMENT_TARGET" : "15.0",
-            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
-            "XROS_DEPLOYMENT_TARGET" : "1.0"
-          },
-          "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner::BUILDCONFIG_0",
-          "impartedBuildProperties" : {
-            "buildSettings" : {
-
-            }
-          },
-          "name" : "Debug"
-        },
-        {
-          "buildSettings" : {
-            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
-            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
-            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
-            "LD_RUNPATH_SEARCH_PATHS" : [
-              "$(inherited)",
-              "$(RPATH_ORIGIN)"
-            ],
-            "LINKER_DRIVER" : "swiftc",
-            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
-            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "free-llm-api-key-fecther.FreeLLMKeyManagerTests-test-runner",
-            "PRODUCT_MODULE_NAME" : "FreeLLMKeyManagerTests_test_runner",
-            "PRODUCT_NAME" : "$(TARGET_NAME)",
-            "SDKROOT" : "auto",
-            "SDK_VARIANT" : "auto",
-            "SKIP_INSTALL" : "NO",
-            "SWIFT_VERSION" : "5.0",
-            "TARGET_NAME" : "FreeLLMKeyManagerTests-test-runner",
-            "TVOS_DEPLOYMENT_TARGET" : "15.0",
-            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
-            "XROS_DEPLOYMENT_TARGET" : "1.0"
-          },
-          "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner::BUILDCONFIG_1",
-          "impartedBuildProperties" : {
-            "buildSettings" : {
-
-            }
-          },
-          "name" : "Release"
-        }
-      ],
-      "buildPhases" : [
-        {
-          "buildFiles" : [
-
-          ],
-          "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner::BUILDPHASE_0",
-          "type" : "com.apple.buildphase.sources"
-        },
-        {
-          "buildFiles" : [
-            {
-              "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner::BUILDPHASE_1::0",
-              "platformFilters" : [
-
-              ],
-              "targetReference" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests"
-            }
-          ],
-          "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner::BUILDPHASE_1",
-          "type" : "com.apple.buildphase.frameworks"
-        }
-      ],
-      "buildRules" : [
-
-      ],
-      "customTasks" : [
-
-      ],
-      "dependencies" : [
-        {
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests",
-          "platformFilters" : [
-
-          ]
-        }
-      ],
-      "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner",
-      "name" : "FreeLLMKeyManagerTests-test-runner",
-      "productReference" : {
-        "guid" : "PRODUCTREF-PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner",
-        "name" : "FreeLLMKeyManagerTests-test-runner",
-        "type" : "file"
-      },
-      "productTypeIdentifier" : "com.apple.product-type.tool.swiftpm-test-runner",
-      "type" : "standard"
-    },
-    "signature" : "7f5a6ad4dee3c5d0ee61ebb37a2138bc136e0a81497a3b871ba722dbd68fd91b",
-    "type" : "target"
   },
   {
     "contents" : {
@@ -724,7 +355,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_3::REF_0",
+              "fileReference" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_2::REF_0",
               "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManager.FreeLLMKeyManager::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -755,7 +386,7 @@
       "productTypeIdentifier" : "com.apple.product-type.tool",
       "type" : "standard"
     },
-    "signature" : "eba027efbd6957bc08373928247256ba54e7cc15dd4b37128f096f00ae6fd681",
+    "signature" : "425fd6f92aae66caca0eb89f8fb2b3fa7e5361404ab7e76abc638762c15e975b",
     "type" : "target"
   },
   {
@@ -893,7 +524,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_4::REF_0",
+              "fileReference" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_3::REF_0",
               "guid" : "PACKAGE-TARGET:FreeLLMKeyManager-24B64B09F5958D5C-testable::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -924,7 +555,7 @@
       "productTypeIdentifier" : "org.swift.product-type.common.object",
       "type" : "standard"
     },
-    "signature" : "f7bc38eee1bb358dca99019d3c4da1d5afed91880e29310086608304cbbfafd4",
+    "signature" : "4d06027c95be05971e8eba8396b4d7e9b6601dc13733b3f9967100dfdad012de",
     "type" : "target"
   },
   {
@@ -965,24 +596,13 @@
 
       ],
       "dependencies" : [
-        {
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests",
-          "platformFilters" : [
 
-          ]
-        },
-        {
-          "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner",
-          "platformFilters" : [
-
-          ]
-        }
       ],
       "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther-FreeLLMKeyManagerPackageTests.FreeLLMKeyManagerPackageTests",
       "name" : "FreeLLMKeyManagerPackageTests-product",
       "type" : "aggregate"
     },
-    "signature" : "6f50ea88f3608cb6ffefcf984c223ba43048d209c45e06a9b572f8028e7804b7",
+    "signature" : "cc0638a28c0bb249977c647b0025e4495ed159082bea0d9f1b26414120f28334",
     "type" : "target"
   },
   {
@@ -1043,11 +663,11 @@
       "projectIsPackage" : "true",
       "projectName" : "Aggregate",
       "targets" : [
-        "107e07f001e053c84bef606bb28fd0a4c9d848f0903687ea3d076a8e20ba72a7",
+        "aa9c2147c4142e97ea5926e384a1aa4252e113a1425ed25bfeaef83bac115645",
         "d2e05409e07437f616a320f572df4fd559ed0d3088473643d9728da404e5bf0d"
       ]
     },
-    "signature" : "dfed6fc14a4f516dbdddc40e246b1ef36309386dcfdad719b3fced6d8d1f3096",
+    "signature" : "8d4f259d916ed626e771c7d939c53fc6dfc6ee1f1108d0d1cb14b6d47c9fc870",
     "type" : "project"
   },
   {
@@ -1089,18 +709,6 @@
       ],
       "dependencies" : [
         {
-          "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManagerTests.FreeLLMKeyManagerTests",
-          "platformFilters" : [
-
-          ]
-        },
-        {
-          "guid" : "PACKAGE-TARGET:FreeLLMKeyManagerTests_test_runner",
-          "platformFilters" : [
-
-          ]
-        },
-        {
           "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManager.FreeLLMKeyManager",
           "platformFilters" : [
 
@@ -1111,7 +719,7 @@
       "name" : "AllIncludingTests",
       "type" : "aggregate"
     },
-    "signature" : "107e07f001e053c84bef606bb28fd0a4c9d848f0903687ea3d076a8e20ba72a7",
+    "signature" : "aa9c2147c4142e97ea5926e384a1aa4252e113a1425ed25bfeaef83bac115645",
     "type" : "target"
   },
   {
