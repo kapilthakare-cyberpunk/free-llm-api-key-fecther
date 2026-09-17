@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'AllExcludingTests' in project 'Aggregate'
-➜ Explicit dependency on target 'FreeLLMKeyManager-product' in project 'FreeLLMKeyManager'
-Target 'FreeLLMKeyManager-product' in project 'FreeLLMKeyManager' (no dependencies)

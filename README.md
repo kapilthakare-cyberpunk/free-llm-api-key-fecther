@@ -40,13 +40,11 @@ cd android
 
 ## Tests
 
-### Swift
-```bash
-swift test
-```
-
 ### Android
 ```bash
 cd android
 ./gradlew test
 ```
+
+### Swift
+Requires Xcode with XCTest support.

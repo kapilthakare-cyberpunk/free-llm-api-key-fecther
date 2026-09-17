@@ -15,15 +15,5 @@
     "object" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/main.o",
     "swift-dependencies" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/main.swiftdeps",
     "swiftmodule" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/main~partial.swiftmodule"
-  },
-  "/Users/kapilthakare/Projects/free-llm-api-key-fecther/Sources/FreeLLMKeyManager/test_pb.swift" : {
-    "const-values" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb.swiftconstvalues",
-    "dependencies" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb.d",
-    "diagnostics" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb.dia",
-    "index-unit-output-path" : "/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb.o",
-    "llvm-bc" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb.bc",
-    "object" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb.o",
-    "swift-dependencies" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb.swiftdeps",
-    "swiftmodule" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther/.build/out/Intermediates.noindex/FreeLLMKeyManager.build/Debug/FreeLLMKeyManager-p.build/Objects-normal/arm64/test_pb~partial.swiftmodule"
   }
 }
