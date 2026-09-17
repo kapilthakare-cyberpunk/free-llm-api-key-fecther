@@ -32,7 +32,10 @@ class MainActivity : AppCompatActivity() {
         "huggingface" to "https://huggingface.co/settings/tokens",
         "cohere" to "https://dashboard.cohere.com/api-keys",
         "fireworks" to "https://fireworks.ai/account/api-keys",
-        "cerebras" to "https://cloud.cerebras.ai/account/api-keys"
+        "cerebras" to "https://cloud.cerebras.ai/account/api-keys",
+        "siliconflow" to "https://siliconflow.cn/account/apikeys",
+        "perplexity" to "https://console.perplexity.ai/settings/api",
+        "replicate" to "https://replicate.com/account/api-tokens"
     )
 
     private val prefs by lazy {
@@ -243,9 +246,10 @@ class MainActivity : AppCompatActivity() {
             val file = File(getExternalFilesDir(null), "llm_keys_backup.json")
             FileOutputStream(file).use { it.write(json.toByteArray()) }
 
+            val uri = androidx.core.content.FileProvider.getUriForFile(this, "$packageName.provider", file)
             val shareIntent = Intent(Intent.ACTION_SEND)
             shareIntent.type = "application/json"
-            shareIntent.putExtra(Intent.EXTRA_STREAM, android.net.Uri.parse("file://${file.absolutePath}"))
+            shareIntent.putExtra(Intent.EXTRA_STREAM, uri)
             shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             startActivity(Intent.createChooser(shareIntent, "Export keys via"))
         } catch (e: Exception) {
@@ -276,12 +280,17 @@ class MainActivity : AppCompatActivity() {
         return when {
             key.startsWith("gsk_") -> "groq"
             key.startsWith("AIza") -> "gemini"
+            key.startsWith("sk-") && key.contains("deepseek") -> "deepseek"
+            key.startsWith("sk-or-") -> "openrouter"
             key.startsWith("together_") -> "together"
             key.startsWith("mistral_") -> "mistral"
             key.startsWith("hf_") -> "huggingface"
             key.startsWith("cohere_") -> "cohere"
             key.startsWith("fw_") -> "fireworks"
             key.startsWith("csk_") -> "cerebras"
+            key.startsWith("sk-") && key.length > 20 -> "siliconflow"
+            key.startsWith("pplx-") -> "perplexity"
+            key.startsWith("r8_") -> "replicate"
             else -> null
         }
     }
@@ -350,9 +359,10 @@ class MainActivity : AppCompatActivity() {
             val file = File(getExternalFilesDir(null), "llm_keys_backup.json")
             FileOutputStream(file).use { it.write(json.toByteArray()) }
 
+            val uri = androidx.core.content.FileProvider.getUriForFile(this, "$packageName.provider", file)
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "application/json"
-            intent.putExtra(Intent.EXTRA_STREAM, android.net.Uri.parse("file://${file.absolutePath}"))
+            intent.putExtra(Intent.EXTRA_STREAM, uri)
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             startActivity(Intent.createChooser(intent, "Backup to Google Drive via"))
         } catch (e: Exception) {

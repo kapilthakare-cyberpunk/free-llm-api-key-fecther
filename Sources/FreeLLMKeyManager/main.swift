@@ -34,7 +34,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         Provider(id: "huggingface", name: "Hugging Face", prefix: "hf_", url: "https://huggingface.co/settings/tokens"),
         Provider(id: "cohere", name: "Cohere", prefix: "cohere_", url: "https://dashboard.cohere.com/api-keys"),
         Provider(id: "fireworks", name: "Fireworks", prefix: "fw_", url: "https://fireworks.ai/account/api-keys"),
-        Provider(id: "cerebras", name: "Cerebras", prefix: "csk_", url: "https://cloud.cerebras.ai/account/api-keys")
+        Provider(id: "cerebras", name: "Cerebras", prefix: "csk_", url: "https://cloud.cerebras.ai/account/api-keys"),
+        Provider(id: "siliconflow", name: "SiliconFlow", prefix: "sk-", url: "https://siliconflow.cn/account/apikeys"),
+        Provider(id: "perplexity", name: "Perplexity", prefix: "pplx-", url: "https://console.perplexity.ai/settings/api"),
+        Provider(id: "replicate", name: "Replicate", prefix: "r8_", url: "https://replicate.com/account/api-tokens")
     ]
 
     private var storageURL: URL {
