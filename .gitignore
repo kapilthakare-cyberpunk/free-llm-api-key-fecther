@@ -1,0 +1,29 @@
+# Swift / SPM
+.build/
+*.swiftpm
+Package.resolved
+
+# Android
+android/.gradle
+android/local.properties
+android/build/
+android/captures/
+android/app/release/
+android/app/debug/
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
