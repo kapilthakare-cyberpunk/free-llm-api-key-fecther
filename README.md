@@ -37,3 +37,16 @@ cd android
 - Copy keys to clipboard
 - Open provider login pages
 - Store keys locally per platform
+
+## Tests
+
+### Swift
+```bash
+swift test
+```
+
+### Android
+```bash
+cd android
+./gradlew test
+```
