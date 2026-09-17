@@ -4,13 +4,18 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
+import android.view.Gravity
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
+import androidx.cardview.widget.CardView
 import java.io.File
 import java.io.FileOutputStream
 import java.net.HttpURLConnection
@@ -34,15 +39,17 @@ class MainActivity : AppCompatActivity() {
         getSharedPreferences("llm_keys", Context.MODE_PRIVATE)
     }
 
+    private fun dpToPx(dp: Int): Int {
+        return (dp * resources.displayMetrics.density).toInt()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val keysContainer = findViewById<LinearLayout>(R.id.keysContainer)
         val addKeyButton = findViewById<Button>(R.id.addKeyButton)
         val exportButton = findViewById<Button>(R.id.exportButton)
         val pasteButton = findViewById<Button>(R.id.pasteButton)
-        val telegramButton = findViewById<Button>(R.id.telegramButton)
         val driveButton = findViewById<Button>(R.id.driveButton)
 
         renderKeys()
@@ -59,10 +66,6 @@ class MainActivity : AppCompatActivity() {
             pasteFromClipboard()
         }
 
-        telegramButton.setOnClickListener {
-            sendBackupToTelegram()
-        }
-
         driveButton.setOnClickListener {
             backupToGoogleDrive()
         }
@@ -75,58 +78,114 @@ class MainActivity : AppCompatActivity() {
         providers.forEach { (name, url) ->
             val key = prefs.getString(name, null)
 
-            val row = LinearLayout(this).apply {
-                orientation = LinearLayout.HORIZONTAL
+            val card = CardView(this).apply {
+                radius = dpToPx(12).toFloat()
+                cardElevation = dpToPx(2).toFloat()
+                setCardBackgroundColor(Color.WHITE)
                 layoutParams = LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT,
                     LinearLayout.LayoutParams.WRAP_CONTENT
                 ).apply {
-                    topMargin = 8
-                    bottomMargin = 8
+                    topMargin = dpToPx(8)
+                    bottomMargin = dpToPx(8)
                 }
+            }
+
+            val row = LinearLayout(this).apply {
+                orientation = LinearLayout.VERTICAL
+                setPadding(dpToPx(14), dpToPx(12), dpToPx(14), dpToPx(12))
+                layoutParams = ViewGroup.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                    ViewGroup.LayoutParams.WRAP_CONTENT
+                )
+            }
+
+            val topRow = LinearLayout(this).apply {
+                orientation = LinearLayout.HORIZONTAL
+                gravity = Gravity.CENTER_VERTICAL
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
             }
 
             val providerText = TextView(this).apply {
                 text = name.replaceFirstChar { it.uppercase() }
                 textSize = 16f
+                setTextColor(Color.BLACK)
                 layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
             }
 
+            val statusDot = View(this).apply {
+                layoutParams = LinearLayout.LayoutParams(dpToPx(10), dpToPx(10)).apply {
+                    marginEnd = dpToPx(10)
+                }
+                background = ContextCompat.getDrawable(this@MainActivity, if (key != null) R.drawable.status_dot_saved else R.drawable.status_dot_missing)
+            }
+
+            topRow.addView(providerText)
+            topRow.addView(statusDot)
+
             val keyText = TextView(this).apply {
-                text = key ?: "No key"
-                textSize = 14f
-                layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 2f)
+                text = key ?: "No key saved"
+                textSize = 13f
+                setTextColor(if (key != null) Color.DKGRAY else Color.GRAY)
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                ).apply {
+                    topMargin = dpToPx(6)
+                }
+                maxLines = 1
+                ellipsize = android.text.TextUtils.TruncateAt.END
             }
 
             val actions = LinearLayout(this).apply {
                 orientation = LinearLayout.HORIZONTAL
-                layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+                gravity = Gravity.END
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                ).apply {
+                    topMargin = dpToPx(10)
+                }
             }
 
             val loginBtn = Button(this).apply {
                 text = "Login"
+                setTextColor(Color.WHITE)
+                background = ContextCompat.getDrawable(this@MainActivity, R.drawable.button_primary)
                 setOnClickListener { openUrl(url) }
+                layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f).apply {
+                    marginEnd = dpToPx(6)
+                }
             }
 
             val copyBtn = Button(this).apply {
-                text = "Copy"
+                text = if (key != null) "Copy" else "Save"
+                setTextColor(Color.WHITE)
+                background = ContextCompat.getDrawable(this@MainActivity, R.drawable.button_secondary)
                 setOnClickListener {
                     if (key != null) {
                         copyToClipboard(key)
                         Toast.makeText(this@MainActivity, "Key copied", Toast.LENGTH_SHORT).show()
                     } else {
-                        Toast.makeText(this@MainActivity, "No key saved", Toast.LENGTH_SHORT).show()
+                        showSaveKeyDialog(name)
                     }
+                }
+                layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f).apply {
+                    marginStart = dpToPx(6)
                 }
             }
 
             actions.addView(loginBtn)
             actions.addView(copyBtn)
 
-            row.addView(providerText)
+            row.addView(topRow)
             row.addView(keyText)
             row.addView(actions)
-            keysContainer.addView(row)
+            card.addView(row)
+            keysContainer.addView(card)
         }
     }
 

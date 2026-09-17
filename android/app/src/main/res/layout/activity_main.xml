@@ -9,8 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LLM Key Manager"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paste a copied key to auto-save it"
+        android:textSize="14sp"
         android:gravity="center"
         android:layout_marginBottom="16dp"/>
 
@@ -18,74 +26,68 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="8dp">
+        android:layout_marginBottom="12dp">
 
-        <TextView
+        <Button
+            android:id="@+id/pasteButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Provider"
-            android:textStyle="bold"/>
+            android:text="Paste and Save"
+            android:textSize="16sp"/>
 
-        <TextView
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/addKeyButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="Key"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Actions"
-            android:textStyle="bold"/>
+            android:layout_weight="1"
+            android:text="Add Key"
+            android:textSize="16sp"/>
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#CCCCCC"
-        android:layout_marginBottom="8dp"/>
+        android:background="#DDDDDD"
+        android:layout_marginBottom="12dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/keysContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
 
     <LinearLayout
-        android:id="@+id/keysContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"/>
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
 
-    <Button
-        android:id="@+id/addKeyButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add Key Manually"
-        android:layout_marginTop="16dp"/>
+        <Button
+            android:id="@+id/exportButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Export Backup"
+            android:layout_marginEnd="6dp"/>
 
-    <Button
-        android:id="@+id/pasteButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Paste from Clipboard"
-        android:layout_marginTop="8dp"/>
-
-    <Button
-        android:id="@+id/exportButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Export Backup"
-        android:layout_marginTop="8dp"/>
-
-    <Button
-        android:id="@+id/telegramButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Send Backup to Telegram"
-        android:layout_marginTop="8dp"/>
-
-    <Button
-        android:id="@+id/driveButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Backup to Google Drive"
-        android:layout_marginTop="8dp"/>
+        <Button
+            android:id="@+id/driveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Backup to Drive"
+            android:layout_marginStart="6dp"/>
+    </LinearLayout>
 
 </LinearLayout>
