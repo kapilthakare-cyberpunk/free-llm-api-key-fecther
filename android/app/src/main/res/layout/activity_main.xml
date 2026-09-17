@@ -60,4 +60,18 @@
         android:text="Add Key Manually"
         android:layout_marginTop="16dp"/>
 
+    <Button
+        android:id="@+id/pasteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paste from Clipboard"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/exportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Export Backup"
+        android:layout_marginTop="8dp"/>
+
 </LinearLayout>

@@ -3249,6 +3249,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id exportButton
 id fade
 id fill
 id fill_horizontal
@@ -3412,6 +3413,7 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password_toggle
+id pasteButton
 id path
 id pathRelative
 id peekHeight
