@@ -54,7 +54,7 @@
               "OTHER_SWIFT_FLAGS[__destination_platform=YES]" : "$(inherited)",
               "STRIP_INSTALLED_PRODUCT" : "NO",
               "SWIFT_FORCE_STATIC_LINK_STDLIB" : "NO",
-              "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault $(inherited)"
+              "TOOLCHAINS" : "org.swift.CommandLineTools $(inherited)"
             }
           }
         }
@@ -112,7 +112,7 @@
           "OTHER_SWIFT_FLAGS[__destination_platform=YES]" : "$(inherited)",
           "STRIP_INSTALLED_PRODUCT" : "NO",
           "SWIFT_FORCE_STATIC_LINK_STDLIB" : "NO",
-          "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault $(inherited)"
+          "TOOLCHAINS" : "org.swift.CommandLineTools $(inherited)"
         }
       }
     }

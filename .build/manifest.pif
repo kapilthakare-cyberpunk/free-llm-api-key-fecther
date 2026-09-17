@@ -5,11 +5,11 @@
       "name" : "FreeLLMKeyManager",
       "path" : "/Users/kapilthakare/Projects/free-llm-api-key-fecther",
       "projects" : [
-        "aef12253d57710dc2b9d1cb1f258148a60171d8860a95f3f4fb11932a61b614b",
+        "f5970c972a0e6f757ae2127d54ba8cea31a81934dfb4ad814e4b4679139060b8",
         "8d4f259d916ed626e771c7d939c53fc6dfc6ee1f1108d0d1cb14b6d47c9fc870"
       ]
     },
-    "signature" : "d3b92ec1f660eb8e1d14eb06792948526c26a43265000dbb61cff059eaf06933",
+    "signature" : "2cf78eea64a7bbf1c19376174c71f277c23d9c710e315cefe72542e9998439ac",
     "type" : "workspace"
   },
   {
@@ -205,6 +205,14 @@
                 "path" : "main.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_2::REF_1",
+                "name" : "test_pb.swift",
+                "path" : "test_pb.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
               }
             ],
             "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_2",
@@ -220,6 +228,14 @@
                 "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_3::REF_0",
                 "name" : "main.swift",
                 "path" : "main.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_3::REF_1",
+                "name" : "test_pb.swift",
+                "path" : "test_pb.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
@@ -243,12 +259,12 @@
       "projectIsPackage" : "true",
       "projectName" : "FreeLLMKeyManager",
       "targets" : [
-        "425fd6f92aae66caca0eb89f8fb2b3fa7e5361404ab7e76abc638762c15e975b",
-        "4d06027c95be05971e8eba8396b4d7e9b6601dc13733b3f9967100dfdad012de",
+        "8f7fcfc25fc8b0baf5b9ef552e237cd4ff4d869feaea04daa0fe72592cb9cc21",
+        "93904d141b5b03451e744df9e86a3285ffd1a10c03aaf1375c47110376ac33b4",
         "cc0638a28c0bb249977c647b0025e4495ed159082bea0d9f1b26414120f28334"
       ]
     },
-    "signature" : "aef12253d57710dc2b9d1cb1f258148a60171d8860a95f3f4fb11932a61b614b",
+    "signature" : "f5970c972a0e6f757ae2127d54ba8cea31a81934dfb4ad814e4b4679139060b8",
     "type" : "project"
   },
   {
@@ -361,6 +377,15 @@
 
               ],
               "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_2::REF_1",
+              "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManager.FreeLLMKeyManager::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
             }
           ],
           "guid" : "PACKAGE-PRODUCT:free-llm-api-key-fecther_FreeLLMKeyManager.FreeLLMKeyManager::BUILDPHASE_0",
@@ -386,7 +411,7 @@
       "productTypeIdentifier" : "com.apple.product-type.tool",
       "type" : "standard"
     },
-    "signature" : "425fd6f92aae66caca0eb89f8fb2b3fa7e5361404ab7e76abc638762c15e975b",
+    "signature" : "8f7fcfc25fc8b0baf5b9ef552e237cd4ff4d869feaea04daa0fe72592cb9cc21",
     "type" : "target"
   },
   {
@@ -530,6 +555,15 @@
 
               ],
               "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:free-llm-api-key-fecther::MAINGROUP::REF_3::REF_1",
+              "guid" : "PACKAGE-TARGET:FreeLLMKeyManager-24B64B09F5958D5C-testable::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
             }
           ],
           "guid" : "PACKAGE-TARGET:FreeLLMKeyManager-24B64B09F5958D5C-testable::BUILDPHASE_0",
@@ -555,7 +589,7 @@
       "productTypeIdentifier" : "org.swift.product-type.common.object",
       "type" : "standard"
     },
-    "signature" : "4d06027c95be05971e8eba8396b4d7e9b6601dc13733b3f9967100dfdad012de",
+    "signature" : "93904d141b5b03451e744df9e86a3285ffd1a10c03aaf1375c47110376ac33b4",
     "type" : "target"
   },
   {
