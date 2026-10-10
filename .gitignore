@@ -27,3 +27,7 @@ android/app/debug/
 # OS
 .DS_Store
 Thumbs.db
+
+# Encryption recovery keys — NEVER commit
+ente_recovery_key*.txt
+*recovery_key*.txt
